@@ -4,7 +4,7 @@
   "description": "The Fastest Matrix Library for JavaScript http://mil-tokyo.github.io/miljs.html",
   "main": "index.js",
   "scripts": {
-    "install": "tsc",
+    "install": "tsc -p .",
     "test": "jasmine-node spec",
     "browserify": "./do_browserify.sh"
   },
